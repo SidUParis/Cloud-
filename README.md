@@ -195,3 +195,10 @@ hfd HuggingFaceH4/zephyr-7b-alpha --tool aria2c -x 4 --hf_token 令牌
 
 ------
 TO BE continue..
+
+23. huggingface需要认证的模型用以下template：
+```sys
+root@autodl-container-5df045955b-e04e1810:~/autodl-tmp/huggingcache# hfd sentence-transformers/sentence-t5-base --hf_username 你的username不是显示的名字不加引号 --hf_token 你的token不要加引号 --tool aria2c -x 4 
+```
+
+
